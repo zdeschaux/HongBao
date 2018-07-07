@@ -46,7 +46,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit">
+         <widget class="QLineEdit" name="lineEditFunds">
           <property name="acceptDrops">
            <bool>false</bool>
           </property>
@@ -78,7 +78,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QDoubleSpinBox" name="doubleSpinBox"/>
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxTotal"/>
           </item>
          </layout>
         </item>
@@ -92,7 +92,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QSpinBox" name="spinBox"/>
+           <widget class="QSpinBox" name="spinBoxQuantity"/>
           </item>
          </layout>
         </item>
@@ -104,10 +104,10 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_2"/>
+         <widget class="QLineEdit" name="lineEditMessage"/>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton">
+         <widget class="QPushButton" name="pushButtonPrepare">
           <property name="text">
            <string>Prepare Red Packet</string>
           </property>
@@ -134,7 +134,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QListWidget" name="listWidget">
+         <widget class="QListWidget" name="listWidgetRanks">
           <property name="selectionMode">
            <enum>QAbstractItemView::NoSelection</enum>
           </property>
@@ -144,7 +144,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_3">
+         <widget class="QPushButton" name="pushButtonLastFive">
           <property name="text">
            <string>Last Five (5) Results</string>
           </property>
@@ -164,7 +164,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit_3"/>
+       <widget class="QLineEdit" name="lineEditName"/>
       </item>
       <item>
        <widget class="QLabel" name="label_6">
@@ -174,10 +174,10 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit_4"/>
+       <widget class="QLineEdit" name="lineEditPIN"/>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="pushButtonConnect">
         <property name="text">
          <string>Connect</string>
         </property>
